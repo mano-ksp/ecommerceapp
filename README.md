@@ -45,7 +45,7 @@ Samples order data to send to API
 -----
 Every register is a client where they can issue independent request to server to process the bill payment
 -----
-Discount Process = `OrderProcessService.processIndividualProductOrders()`
+Discount Process done in = `OrderProcessService.processIndividualProductOrders()`
 
 Discount added to individual customers irrespective of products
 
