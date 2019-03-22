@@ -52,7 +52,7 @@ Discount added to individual customers irrespective of products
 Discount added to individual products irrespective of customers
 
 
------
-To Run the whole process
-Start Jetty Server via mvn command and
-Call Main.java --- main func
+--------
+To Run the whole process 
+--------
+Start Jetty Server via mvn command and Call Main.java --- main func
