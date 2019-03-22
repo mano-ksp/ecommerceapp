@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/Test</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">vedantu123</property>
+        <!--<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>-->
+        <property name="hibernate.dialect.storage_engine">innodb</property>
+        <!-- DB schema will be updated if needed -->
+        <property name="hbm2ddl.auto">update</property>
+        <!--Isolation Level Connection.TRANSACTION_SERIALIZABLE-->
+        <property name="hibernate.connection.isolation">8</property>
+
+
+        <mapping class="com.ecommerceapp.entity.AccountEntity"/>
+        <mapping class="com.ecommerceapp.entity.InventoryEntity"/>
+        <mapping class="com.ecommerceapp.entity.OrderDetailsEntity"/>
+        <mapping class="com.ecommerceapp.entity.OrdersEntity"/>
+        <mapping class="com.ecommerceapp.entity.PaymentEntity"/>
+        <mapping class="com.ecommerceapp.entity.UserSecretsEntity"/>
+    </session-factory>
+</hibernate-configuration>
