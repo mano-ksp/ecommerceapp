@@ -47,10 +47,9 @@ Every register is a client where they can issue independent request to server to
 -----
 Discount Process done in = `OrderProcessService.processIndividualProductOrders()`
 
-Discount added to individual customers irrespective of products
+Discount added to individual customer category (Senior, Employee, General) irrespective of products
 
 Discount added to individual products irrespective of customers
-
 
 --------
 To Run the whole process 
