@@ -6,6 +6,8 @@ maven
 
 To Run App -- `mvn clean package jetty:run`
 
+Note: Please make appropriate changes in hibernate config xml located in resources folder.
+
 API
 ---
 
